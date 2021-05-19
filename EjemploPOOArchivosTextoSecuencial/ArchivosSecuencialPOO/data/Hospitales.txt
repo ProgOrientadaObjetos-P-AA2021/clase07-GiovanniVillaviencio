@@ -1,0 +1,6 @@
+Hospital General Zaruma;150;8000.000000
+Hospital Isisdro Ayora;300;1500.000000
+Hospital Alberto Santos;100;5000.000000
+Hospital General Zaruma;150;8000.000000
+Hospital Isisdro Ayora;300;1500.000000
+Hospital Alberto Santos;100;5000.000000

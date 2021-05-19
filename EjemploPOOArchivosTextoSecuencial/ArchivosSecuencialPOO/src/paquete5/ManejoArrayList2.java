@@ -12,7 +12,7 @@ import paquete1.Profesor;
  *
  * @author reroes
  */
-public class ManejoArrayList {
+public class ManejoArrayList2 {
     public static void main(String[] args) {
         Profesor prof1 = new Profesor("Joseph Jimenez", "facturado");
         Profesor prof2 = new Profesor("David Jones", "nombramiento");
@@ -21,12 +21,11 @@ public class ManejoArrayList {
         Profesor [] profesores = new Profesor[2];
         profesores[0] = prof1;
         profesores[1] = prof2;
-        /*
+        
         for (int i = 0; i < profesores.length; i++) {
             System.out.printf("%s - %s\n", profesores[i].obtenerNombre(),
                     profesores[i].obtenerTipo());
         }
-        */
         
         System.out.println("-----------------------------");
         
@@ -34,9 +33,7 @@ public class ManejoArrayList {
         ArrayList <Profesor> profesores2 = new ArrayList<>();
         profesores2.add(prof1);
         profesores2.add(prof2);
-        System.out.println(profesores2.get(1).obtenerNombre());
         
-        /*
         for (int i = 0; i < profesores2.size(); i++) {
             System.out.printf("%s - %s\n", profesores2.get(i).obtenerNombre(),
                     profesores2.get(i).obtenerTipo());
@@ -51,6 +48,5 @@ public class ManejoArrayList {
             System.out.printf("%s - %s\n", profesores2.get(i).obtenerNombre(),
                     profesores2.get(i).obtenerTipo());
         }
-        */
     }
 }
